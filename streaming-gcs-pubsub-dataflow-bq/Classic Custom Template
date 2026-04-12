@@ -1,0 +1,10 @@
+Step1: nano custom.py
+Step 2: Paste custom.py Code
+Step 3: Pase CLI Query(To Package)
+(python custom.py \
+  --runner DataflowRunner \
+  --project eighth-azimuth-472115-b8 \
+  --region us-central1 \
+  --temp_location gs://metadatabucket5356/temp \
+  --template_location gs://metadatabucket5356/my-template/template.json \
+  --staging_location gs://metadatabucket5356/staging)

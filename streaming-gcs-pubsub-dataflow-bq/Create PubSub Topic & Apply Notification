@@ -1,0 +1,9 @@
+#Create PubSub Topic
+gcloud pubsub topics create gcs-file-topic
+
+
+#Create Bucket Notification
+gcloud storage buckets notifications create gs://<your-bucket> \
+  --topic=gcs-file-topic \
+  --event-types=OBJECT_FINALIZE \
+  --payload-format=json

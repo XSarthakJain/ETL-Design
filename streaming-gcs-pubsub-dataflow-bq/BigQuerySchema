@@ -1,0 +1,14 @@
+BigQuer Table:
+CREATE TABLE usertransaction(
+transaction_id STRING,
+user_id STRING,
+amount FLOAT,
+currency STRING,
+transaction_type STRING,
+transaction_time TIMESTAMP,
+merchant STRING,
+location STRING,
+status STRING)
+
+Partition by transaction_time
+cluster by user_id,merchant
