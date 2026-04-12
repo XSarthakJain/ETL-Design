@@ -78,10 +78,10 @@ GCS → Pub/Sub → Dataflow → BigQuery
 
 ## 📂 Sample Data
 
-Available in `sample_data/`
+Available in `sample_data.*/`
 
 ---
 
 ## 📸 Architecture Diagram
 
-(Add screenshot here)
+Available in Architecture Folder
