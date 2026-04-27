@@ -1,0 +1,6 @@
+- Python 3.8+
+- Google Cloud SDK installed and authenticated
+- A GCP project with the following APIs enabled:
+  - Cloud Dataflow API
+  - Cloud PubSub API
+  - Cloud Storage API
