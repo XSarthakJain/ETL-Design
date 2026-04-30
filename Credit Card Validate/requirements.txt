@@ -1,0 +1,6 @@
+# Clone the repository
+git clone https://github.com/your-username/credit-card-streaming-pipeline.git
+cd credit-card-streaming-pipeline
+
+# Install dependencies
+pip install apache-beam[gcp]
